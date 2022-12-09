@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/style.css" />
+
+        <title>Petshop Buys | Products</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img src="./images/logo.png" width="50" height="50" alt="Pet Shop Boys logo" /> Pet Shop Buys</a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/products.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/cart.html">Cart</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/admin.html">Admin</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="banner"></div>
+        <main class="container">
+            <h2 class="display-4 mt-4 mb-4">Products</h2>
+
+            <div class="input-group mb-5">
+                <div class="search-bar">
+                    <form class="d-flex">
+                        <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"
+                            id="product-search"
+                        />
+                        <button class="btn btn-success" type="submit" id="search">Search</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row g-4" id="product-list"></div>
+        </main>
+        <footer class="bg-dark text-light py-4 mt-5">
+            <div class="container d-flex">
+                <div class="text-white mx-auto">Made with Love</div>
+            </div>
+        </footer>
+    </body>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"
+    ></script>
+    <script src="./js/productList.js" type="module"></script>
+</html>

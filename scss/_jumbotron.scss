@@ -1,0 +1,21 @@
+.jumbotron {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    filter: grayscale(20%);
+    position: relative;
+
+    &-container {
+        position: absolute;
+        z-index: 10;
+        width: max-content;
+        padding: 0 2rem;
+        filter: blur(80%);
+        opacity: 80%;
+    }
+}
