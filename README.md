@@ -2,17 +2,16 @@
 
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-A simple overview of the use/purpose of the project.
-
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+An E-commerce site built with pure Javascript and using Strapi as a backend. Complete with admin ability and CRUD operations
 
 You can add some bullet points if you'd like to:
 
-- List item 1
-- List item 2
-- List item 3
+- Front page containing products listed as featured
+- Products page with search ability
+- Cart containing items added via add to cart button
+- Individual product page containing more information
 
 ## Built With
 
@@ -23,9 +22,14 @@ You can add some bullet points if you'd like to:
 
 ## Getting Started
 
-### Installing
+### Prerequisites
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+Make sure  you have the most current version of node available
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installing
 
 1. Clone the repo:
 
