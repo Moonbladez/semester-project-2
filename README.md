@@ -1,6 +1,6 @@
 # Semester Project 2
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![Screenshot 2022-12-10 at 17 31 34](https://user-images.githubusercontent.com/53820853/206865131-fc11371a-b060-45be-8f25-c3db1edd7d00.png)
 
 ## Description
 
@@ -45,13 +45,14 @@ npm install
 
 ### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+1. [Download LiveServer](https://link-url-here.org](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer))
 
-To run the app, run the following commands:
+2. Install Strapi:
 
-```bash
-npm run start
 ```
+npx create-strapi-app@latest server --quickstart --ts
+```
+
 
 ## Contributing
 
